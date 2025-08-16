@@ -33,6 +33,7 @@
     fish_config theme choose None
   '';
   programs.fish.functions = {
+    drs = "sudo darwin-rebuild switch --flake ~/Developer/zasdaym/flake";
     glog = "git log --oneline --decorate --graph $argv";
     ggpush = "git push origin (git branch --show-current) $argv";
     ggpull = "git pull origin (git branch --show-current) $argv";

@@ -3,7 +3,6 @@
   home.stateVersion = "25.05";
 
   home.packages = [
-    pkgs.btop
     pkgs.croc
     pkgs.d2
     pkgs.fd
@@ -20,6 +19,12 @@
     pkgs.tcptraceroute
     pkgs.yq
   ];
+
+  programs.btop.enable = true;
+  programs.btop.settings = {
+    color_theme = "TTY";
+    theme_background = false;
+  };
 
   programs.home-manager.enable = true;
 

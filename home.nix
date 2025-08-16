@@ -14,6 +14,7 @@
     pkgs.kubernetes-helm
     pkgs.nixfmt-rfc-style
     pkgs.ripgrep
+    pkgs.rustup
     pkgs.sd
     pkgs.tcpdump
     pkgs.tcptraceroute
@@ -65,6 +66,8 @@
     }
   ];
 
+  programs.go.enable = true;
+
   programs.starship.enable = true;
   programs.starship.enableFishIntegration = true;
   programs.starship.settings = {
@@ -113,6 +116,8 @@
   programs.bun.settings = {
     telemetry = false;
   };
+
+  programs.uv.enable = true;
 
   programs.zoxide.enable = true;
   programs.zoxide.enableFishIntegration = true;

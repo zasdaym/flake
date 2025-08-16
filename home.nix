@@ -7,7 +7,9 @@
     pkgs.croc
     pkgs.d2
     pkgs.fd
+    pkgs.helmfile
     pkgs.jq
+    pkgs.krew
     pkgs.kubectl
     pkgs.kubernetes-helm
     pkgs.nixfmt-rfc-style
@@ -40,6 +42,28 @@
     grt = "cd (git rev-parse --show-toplevel || echo '.')";
     gcs = "git commit -S $argv";
   };
+
+  programs.git.enable = true;
+  programs.git.extraConfig = {
+    init.defaultBranch = true;
+    pull.rebase = true;
+    push.autoSetupRemote = true;
+  };
+  programs.git.signing.format = "ssh";
+  programs.git.signing.key = "~/.ssh/id_ed25519.pub";
+  programs.git.userEmail = "zasdaym@gmail.com";
+  programs.git.userName = "Zasda Mikail";
+  programs.git.includes = [
+    {
+      condition = "gitdir:~/Developer/gcore";
+      contents = {
+        user = {
+          email = "zasda.mikail@gcore.com";
+          name = "Zasda Mikail";
+        };
+      };
+    }
+  ];
 
   programs.starship.enable = true;
   programs.starship.enableFishIntegration = true;

@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs, pkgs-unstable, ... }:
 {
   home.stateVersion = "25.05";
 
@@ -30,7 +30,7 @@
 
   programs.helix.enable = true;
   programs.helix.defaultEditor = true;
-  programs.helix.package = pkgs.evil-helix;
+  programs.helix.package = pkgs-unstable.evil-helix;
   programs.helix.settings = {
     theme = "github_light";
   };

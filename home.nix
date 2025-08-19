@@ -61,7 +61,7 @@
   programs.git.userName = "Zasda Mikail";
   programs.git.includes = [
     {
-      condition = "gitdir:~/Developer/gcore";
+      condition = "gitdir:~/Developer/gcore/";
       contents = {
         user = {
           email = "zasda.mikail@gcore.com";

@@ -11,6 +11,7 @@
     pkgs.krew
     pkgs.kubectl
     pkgs.kubernetes-helm
+    pkgs.lilex
     pkgs.nixfmt-rfc-style
     pkgs.ripgrep
     pkgs.rustup
@@ -19,6 +20,8 @@
     pkgs.tcptraceroute
     pkgs.yq
   ];
+
+  fonts.fontconfig.enable = true;
 
   programs.btop.enable = true;
   programs.btop.settings = {
@@ -110,7 +113,7 @@
   programs.ghostty.enableFishIntegration = true;
   programs.ghostty.settings = {
     command = "/run/current-system/sw/bin/fish";
-    font-family = "TX-02";
+    font-family = "TX-02,Lilex";
     font-size = 14;
     macos-titlebar-proxy-icon = "hidden";
     theme = "dark:GitHub-Dark-Default,light:GitHub-Light-Default";

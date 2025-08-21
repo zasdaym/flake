@@ -6,12 +6,14 @@
     pkgs.croc
     pkgs.d2
     pkgs.fd
+    pkgs.gh
     pkgs.helmfile
     pkgs.jq
     pkgs.krew
     pkgs.kubectl
     pkgs.kubernetes-helm
     pkgs.lilex
+    pkgs.mosh
     pkgs.nixfmt-rfc-style
     pkgs.ripgrep
     pkgs.rustup

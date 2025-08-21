@@ -40,4 +40,9 @@
 
   programs.fish.enable = true;
   programs.zsh.enable = true;
+
+  homebrew.enable = true;
+  homebrew.masApps = {
+    Wireguard = 1451685025;
+  };
 }

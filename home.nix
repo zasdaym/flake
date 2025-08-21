@@ -3,8 +3,10 @@
   home.stateVersion = "25.05";
 
   home.packages = [
+    pkgs.bat
     pkgs.croc
     pkgs.d2
+    pkgs.difftastic
     pkgs.fd
     pkgs.gh
     pkgs.helmfile

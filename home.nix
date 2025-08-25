@@ -122,6 +122,7 @@
     macos-titlebar-proxy-icon = "hidden";
     theme = "dark:GitHub-Dark-Default,light:GitHub-Light-Default";
     window-padding-x = 8;
+    window-save-state = "always";
   };
 
   programs.bun.enable = true;

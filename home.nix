@@ -40,6 +40,9 @@
   programs.helix.package = pkgs-unstable.evil-helix;
   programs.helix.settings = {
     theme = "github_light";
+    editor = {
+      default-yank-register = "+";
+    };
   };
 
   programs.fish.enable = true;

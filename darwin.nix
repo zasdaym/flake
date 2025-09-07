@@ -42,6 +42,15 @@
   programs.zsh.enable = true;
 
   homebrew.enable = true;
+  homebrew.casks = [
+    "beekeeper-studio"
+    "betterdisplay"
+    "brave-browser"
+    "ghostty"
+    "raycast"
+    "visual-studio-code"
+    "zed"
+  ];
   homebrew.masApps = {
     Wireguard = 1451685025;
   };

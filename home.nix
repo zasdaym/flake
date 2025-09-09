@@ -61,7 +61,7 @@
 
   programs.git.enable = true;
   programs.git.extraConfig = {
-    init.defaultBranch = true;
+    init.defaultBranch = "main";
     pull.rebase = true;
     push.autoSetupRemote = true;
   };

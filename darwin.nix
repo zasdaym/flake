@@ -42,6 +42,9 @@
   programs.zsh.enable = true;
 
   homebrew.enable = true;
+  homebrew.brews = [
+    "psviderski/tap/uncloud"
+  ];
   homebrew.casks = [
     "beekeeper-studio"
     "betterdisplay"

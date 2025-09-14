@@ -57,6 +57,7 @@
     ggpull = "git pull origin (git branch --show-current) $argv";
     grt = "cd (git rev-parse --show-toplevel || echo '.')";
     gcs = "git commit -S $argv";
+    xwhois = "whois -h bgp.tools $argv";
   };
 
   programs.git.enable = true;

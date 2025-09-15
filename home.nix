@@ -11,6 +11,7 @@
     pkgs.gh
     pkgs.helmfile
     pkgs.jq
+    pkgs.k0sctl
     pkgs.krew
     pkgs.kubectl
     pkgs.kubernetes-helm

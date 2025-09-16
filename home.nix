@@ -125,7 +125,7 @@
     font-family = ["TX-02" "Lilex"];
     font-size = 14;
     macos-titlebar-proxy-icon = "hidden";
-    theme = "dark:GitHub-Dark-Default,light:GitHub-Light-Default";
+    theme = "dark:GitHub Dark Default,light:GitHub Light Default";
     window-padding-x = 8;
     window-save-state = "always";
   };

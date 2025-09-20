@@ -9,6 +9,7 @@
     pkgs.difftastic
     pkgs.fd
     pkgs.gh
+    pkgs.grafana-alloy
     pkgs.helmfile
     pkgs.jq
     pkgs.k0sctl

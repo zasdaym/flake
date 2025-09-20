@@ -15,7 +15,7 @@
     pkgs.krew
     pkgs.kubectl
     pkgs.kubernetes-helm
-    pkgs.lilex
+    pkgs.miller
     pkgs.mosh
     pkgs.nixfmt-rfc-style
     pkgs.ripgrep

@@ -4,6 +4,7 @@
 
   home.packages = [
     pkgs.bat
+    pkgs.cloc
     pkgs.croc
     pkgs.d2
     pkgs.difftastic

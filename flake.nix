@@ -28,7 +28,7 @@
       darwin = import ./darwin.nix;
     in
     {
-      darwinConfigurations.zym-mbp = nix-darwin.lib.darwinSystem {
+      darwinConfigurations.MAC-QY2G1C3604 = nix-darwin.lib.darwinSystem {
         modules = [
           darwin
           home-manager.darwinModules.home-manager

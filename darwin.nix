@@ -48,6 +48,7 @@
   homebrew.casks = [
     "beekeeper-studio"
     "betterdisplay"
+    "brave-browser"
     "ghostty"
     "raycast"
     "visual-studio-code"

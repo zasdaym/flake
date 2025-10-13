@@ -87,6 +87,14 @@
 
   programs.go.enable = true;
 
+  programs.jujutsu.enable = true;
+  programs.jujutsu.settings = {
+    user = {
+      email = "zasdaym@gmail.com";
+      name = "Zasda Yusuf Mikail";
+    };
+  };
+
   programs.starship.enable = true;
   programs.starship.enableFishIntegration = true;
   programs.starship.settings = {

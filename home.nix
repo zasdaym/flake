@@ -3,6 +3,7 @@
   home.stateVersion = "25.05";
 
   home.packages = [
+    pkgs.amp-cli
     pkgs.bat
     pkgs.cloc
     pkgs.croc

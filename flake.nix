@@ -39,6 +39,7 @@
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
             home-manager.users.zasda = ./home.nix;
+            nixpkgs.config.allowUnfree = true;
           }
         ];
       };

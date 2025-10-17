@@ -142,6 +142,7 @@
   };
 
   programs.bun.enable = true;
+  programs.bun.package = pkgs-unstable.bun;
   programs.bun.settings = {
     telemetry = false;
   };

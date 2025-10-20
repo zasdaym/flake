@@ -11,6 +11,7 @@
     pkgs.difftastic
     pkgs.fd
     pkgs.gh
+    pkgs.git-town
     pkgs.grafana-alloy
     pkgs.helmfile
     pkgs.jq

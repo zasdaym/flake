@@ -52,6 +52,7 @@
     "ghostty"
     "raycast"
     "visual-studio-code"
+    "yaak"
     "zed"
   ];
   homebrew.masApps = {

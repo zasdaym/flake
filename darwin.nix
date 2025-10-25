@@ -35,6 +35,8 @@
   # Keyboard
   system.defaults.NSGlobalDomain.InitialKeyRepeat = 15;
   system.defaults.NSGlobalDomain.KeyRepeat = 2;
+  system.keyboard.enableKeyMapping = true;
+  system.keyboard.remapCapsLockToEscape = true;
 
   security.pam.services.sudo_local.touchIdAuth = true;
 

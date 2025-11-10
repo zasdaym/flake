@@ -3,7 +3,6 @@
   home.stateVersion = "25.05";
 
   home.packages = [
-    pkgs.amp-cli
     pkgs.bat
     pkgs.cloc
     pkgs.croc
@@ -27,7 +26,7 @@
     pkgs.sd
     pkgs.tcpdump
     pkgs.tcptraceroute
-    pkgs.yq
+    pkgs.yq-go
   ];
 
   fonts.fontconfig.enable = true;

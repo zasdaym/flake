@@ -65,15 +65,17 @@
   };
 
   programs.git.enable = true;
-  programs.git.extraConfig = {
+  programs.git.settings = {
     init.defaultBranch = "main";
     pull.rebase = true;
     push.autoSetupRemote = true;
+    user = {
+      email = "zasdaym@gmail.com";
+      name = "Zasda Mikail";
+    };
   };
   programs.git.signing.format = "ssh";
   programs.git.signing.key = "~/.ssh/id_ed25519.pub";
-  programs.git.userEmail = "zasdaym@gmail.com";
-  programs.git.userName = "Zasda Mikail";
   programs.git.includes = [
     {
       condition = "gitdir:~/Developer/gcore/";

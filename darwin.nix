@@ -46,11 +46,11 @@
   homebrew.enable = true;
   homebrew.brews = [
     "psviderski/tap/uncloud"
+    "tw93/tap/mole"
   ];
   homebrew.casks = [
     "beekeeper-studio"
     "betterdisplay"
-    "brave-browser"
     "ghostty"
     "raycast"
     "visual-studio-code"

@@ -52,6 +52,7 @@
     "beekeeper-studio"
     "betterdisplay"
     "ghostty"
+    "helium-browser"
     "raycast"
     "visual-studio-code"
     "yaak"

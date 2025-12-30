@@ -43,7 +43,7 @@
   programs.helix.defaultEditor = true;
   programs.helix.package = pkgs-unstable.evil-helix;
   programs.helix.settings = {
-    theme = "github_light";
+    theme = "flexoki_light";
     editor = {
       default-yank-register = "+";
     };
@@ -140,7 +140,7 @@
     font-family = "TX-02";
     font-size = 14;
     macos-titlebar-proxy-icon = "hidden";
-    theme = "dark:GitHub Dark Default,light:GitHub Light Default";
+    theme = "dark:Flexoki Dark,light:Flexoki Light";
     window-padding-x = 8;
     window-save-state = "always";
   };

@@ -48,6 +48,13 @@
       default-yank-register = "+";
     };
   };
+  programs.helix.languages = {
+    language = [{
+      name = "ruby";
+      scope = "source.ruby";
+      file-types = ["pp"];
+    }];
+  };
 
   programs.fish.enable = true;
   programs.fish.interactiveShellInit = ''

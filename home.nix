@@ -20,7 +20,9 @@
     pkgs.kubernetes-helm
     pkgs.miller
     pkgs.mosh
+    pkgs.mycli
     pkgs.nixfmt-rfc-style
+    pkgs.pgcli
     pkgs.ripgrep
     pkgs.rustup
     pkgs.sd
